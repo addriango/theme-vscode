@@ -1,0 +1,21 @@
+{
+    "name": "adrian-theme",
+    "displayName": "Adrian Theme",
+    "description": "vs code Theme by Adrian Gomez",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Adrian Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Adrian Theme-color-theme.json"
+            }
+        ]
+    }
+}
