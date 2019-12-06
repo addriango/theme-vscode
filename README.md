@@ -16,6 +16,6 @@
 
 ### For more information
 
-- [facebook account](https://faceboook.com/adriangez7)
+- [Twitter account](https://twitter.com/@adriangez7)
 
 ## Enjoy!
