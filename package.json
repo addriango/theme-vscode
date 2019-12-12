@@ -1,21 +1,29 @@
 {
-    "name": "adrian-theme",
-    "displayName": "Adrian Theme",
-    "description": "vs code Theme by Adrian Gomez",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.40.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Adrian Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Adrian Theme-color-theme.json"
-            }
-        ]
-    }
+	"name": "adrian-theme",
+	"displayName": "Adrian Theme",
+	"description": "vs code Theme by Adrian Gomez",
+	"version": "0.0.2",
+	"publisher": "AdrianTheme",
+	"repository": "https://github.com/adriangez/theme-vscode",
+	"icon":"A-min_ce4ks4.png",
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Adrian Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Adrian Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "80c58597-aec8-45e1-bcb8-61dffe4ae48e",
+		"publisherDisplayName": "AdrianTheme",
+		"publisherId": "3d2df0d5-eee1-447b-9a73-2afaf875d089"
+	}
 }
