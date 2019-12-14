@@ -2,7 +2,7 @@
 
 ## Preview
 
-![Preview Theme](https://res.cloudinary.com/dh1ptdgbs/image/upload/v1576179276/adrian-theme-min_yv03hl.png)
+![Preview Theme](https://res.cloudinary.com/dh1ptdgbs/image/upload/v1576341562/thema-preview-1-min_grlemr.png)
 
 ### For more information
 

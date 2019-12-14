@@ -44,7 +44,7 @@
       "name": "variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#ffffff",
+        "foreground": "#f7f6ee",
         "fontStyle": "bold"
       }
     },
@@ -52,15 +52,14 @@
       "name": "palabras clave del lenguaje",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#2d7",
-        "fontStyle": "bold"
+        "foreground": "#2d7"
       }
     },
     {
       "name": "texto y signo igual jsx",
       "scope": ["meta.tag"],
       "settings": {
-        "foreground": "#4f89f3"
+        "foreground": "#d6d8da"
       }
     },
     {
@@ -72,7 +71,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#ffffffd2",
+        "foreground": "#0092e7",
         "fontStyle": "bold"
       }
     },
