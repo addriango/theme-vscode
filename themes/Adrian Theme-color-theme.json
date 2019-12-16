@@ -48,7 +48,7 @@
     },
     {
       "name": "types golang",
-      "scope": ["entity.name.type.go", "source.go"],
+      "scope": ["entity.name.type.go"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#bec2c4"
@@ -79,7 +79,14 @@
     },
     {
       "name": "palabras clave del lenguaje",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.import.go",
+        "keyword.package.go",
+        "keyword.function.go"
+      ],
       "settings": {
         "foreground": "#2d7"
       }
