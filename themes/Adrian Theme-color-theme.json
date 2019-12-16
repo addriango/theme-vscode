@@ -33,6 +33,35 @@
   },
   "tokenColors": [
     {
+      "name": "main golang",
+      "scope": [
+        "entity.name.package.go",
+        "entity.name.import.go",
+        "keyword.other.special-method.dockerfile",
+        "variable.other.assignment.go",
+        "support.function.go"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#0092c7"
+      }
+    },
+    {
+      "name": "types golang",
+      "scope": ["entity.name.type.go", "source.go"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#bec2c4"
+      }
+    },
+    {
+      "name": "texto Dockerfile",
+      "scope": ["source.dockerfile"],
+      "settings": {
+        "foreground": "#bec2c4"
+      }
+    },
+    {
       "name": "comentarios",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
