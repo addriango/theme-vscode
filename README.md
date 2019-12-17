@@ -6,6 +6,6 @@
 
 ### For more information
 
-- [Twitter account](https://twitter.com/@adriangez7)
+- [Twitter account](https://twitter.com/@adriiancode)
 
 ## Enjoy!

@@ -1,8 +1,8 @@
 {
   "name": "adrian-theme",
   "displayName": "Adrian Theme",
-  "description": "vs code Theme by Adrian Gomez",
-  "version": "0.0.6",
+  "description": "Dark Theme by Adrian Gomez",
+  "version": "0.0.7",
   "publisher": "AdrianTheme",
   "repository": "https://github.com/adriangez/theme-vscode",
   "icon": "logo.png",
