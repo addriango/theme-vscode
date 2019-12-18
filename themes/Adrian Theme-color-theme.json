@@ -55,8 +55,16 @@
       }
     },
     {
+      "name": "name functions golang",
+      "scope": "entity.name.function.go",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#f3f2f2"
+      }
+    },
+    {
       "name": "texto Dockerfile",
-      "scope": ["source.dockerfile"],
+      "scope": ["source.dockerfile", "source.go"],
       "settings": {
         "foreground": "#bec2c4"
       }
@@ -70,19 +78,8 @@
       }
     },
     {
-      "name": "variables",
-      "scope": ["variable", "string constant.other.placeholder"],
-      "settings": {
-        "foreground": "#f7f6ee",
-        "fontStyle": "bold"
-      }
-    },
-    {
       "name": "palabras clave del lenguaje",
       "scope": [
-        "keyword",
-        "storage.type",
-        "storage.modifier",
         "keyword.import.go",
         "keyword.package.go",
         "keyword.function.go"
@@ -114,7 +111,6 @@
     {
       "name": "nombre funciones y Methodos",
       "scope": [
-        "entity.name.function",
         "entity.name.type.class.python",
         "meta.class.python",
         // "source.python",
@@ -122,12 +118,7 @@
         "meta.class.js.jsx",
         "new.expr.js.jsx",
         "meta.var.expr.js.jsx",
-        "entity.name.type.js.jsx",
-        // "source.js.jsx",
-        "meta.function-call",
-        "variable.function",
-        "support.function",
-        "keyword.other.special-method"
+        "entity.name.type.js.jsx"
       ],
       "settings": {
         "foreground": "#ffffff",
@@ -135,48 +126,14 @@
       }
     },
     {
-      "name": "Numeros y parametros de funciones",
-      "scope": [
-        "constant.numeric",
-        "constant.language",
-        "support.constant",
-        "constant.character",
-        "constant.escape",
-        "variable.parameter",
-        "keyword.other.unit",
-        "keyword.other"
-      ],
-      "settings": {
-        "foreground": "#bebebe",
-        "fontStyle": "bold"
-      }
-    },
-    {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
         "string",
-        "constant.other.symbol",
-        "constant.other.key",
-        "entity.other.inherited-class",
-        "markup.heading",
-        "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-        "punctuation"
+
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#96a7b1",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": [
-        "entity.name",
-        "support.type",
-        "markup.changed.git_gutter",
-        "support.type.sys-types"
-      ],
-      "settings": {
-        "foreground": "#c0f309",
+        "foreground": "#b8c3c9",
         "fontStyle": "bold"
       }
     },
@@ -221,7 +178,8 @@
     {
       "name": "JSON Key - Level 0",
       "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
+        "meta.structure.dictionary.json",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#1b8375"
@@ -230,7 +188,10 @@
     {
       "name": "JSON Key - Level 1",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "meta.structure.dictionary.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#d69d32"
@@ -239,7 +200,12 @@
     {
       "name": "JSON Key - Level 2",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "meta.structure.dictionary.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#5c42f0"
@@ -248,7 +214,14 @@
     {
       "name": "JSON Key - Level 3",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "meta.structure.dictionary.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#c55568"
