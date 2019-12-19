@@ -40,7 +40,11 @@
         "keyword.function.go",
         "keyword.control.switch.js",
         "keyword.control.switch.js",
-        "keyword.operator.new.js"
+        "keyword.operator.new.js",
+        "keyword.control.import.js.jsx",
+        "keyword.control.from.js.jsx",
+        "keyword.control.export.js.jsx",
+        "keyword.control.default.js.jsx"
       ],
       "settings": {
         "foreground": "#2d7"
@@ -59,7 +63,7 @@
         "support.function.js"
       ],
       "settings": {
-        "foreground": "#22a2dd"
+        "foreground": "#0092e7"
       }
     },
     {
@@ -95,7 +99,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#0092c7"
+        "foreground": "#0092e7"
       }
     },
     {
