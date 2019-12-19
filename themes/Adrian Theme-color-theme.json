@@ -33,6 +33,58 @@
   },
   "tokenColors": [
     {
+      "name": "types golang",
+      "scope": [
+        "keyword.import.go",
+        "keyword.package.go",
+        "keyword.function.go",
+        "keyword.control.switch.js",
+        "keyword.control.switch.js",
+        "keyword.operator.new.js"
+      ],
+      "settings": {
+        "foreground": "#2d7"
+      }
+    },
+    {
+      "name": "variables javascript",
+      "scope": [
+        "variable.other.readwrite.js",
+        "entity.name.function.js",
+        "support.function.console.js",
+        "variable.other.property.js",
+        "variable.other.constant.js",
+        "support.function.math.js",
+        "support.variable.property.js",
+        "support.function.js"
+      ],
+      "settings": {
+        "foreground": "#22a2dd"
+      }
+    },
+    {
+      "name": "var  javascript",
+      "scope": [
+        "storage.type.js",
+        "storage.type.function.js",
+        "keyword.control.conditional.js",
+        "keyword.control.flow.js",
+        "keyword.control.loop.js",
+        "storage.type.class.js",
+        "storage.modifier.js"
+      ],
+      "settings": {
+        "foreground": "#2d7"
+      }
+    },
+    {
+      "name": "var  javascript",
+      "scope": ["meta.object-literal.key.js"],
+      "settings": {
+        "foreground": "#dd946a"
+      }
+    },
+    {
       "name": "main golang",
       "scope": [
         "entity.name.package.go",
@@ -47,7 +99,7 @@
       }
     },
     {
-      "name": "types golang",
+      "name": "old types golang",
       "scope": ["entity.name.type.go"],
       "settings": {
         "fontStyle": "bold",

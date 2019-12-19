@@ -2,7 +2,7 @@
   "name": "adrian-theme",
   "displayName": "Adrian Theme",
   "description": "Dark Theme by Adrian Gomez",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "AdrianTheme",
   "repository": "https://github.com/adriangez/theme-vscode",
   "icon": "logo.png",
