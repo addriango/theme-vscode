@@ -66,7 +66,8 @@
         "support.function.js",
         "support.function.builtin.python",
         "support.function.magic.python",
-        "entity.name.function.python"
+        "entity.name.function.python",
+        "meta.function-call.generic.python"
       ],
       "settings": {
         "foreground": "#0092e7"
