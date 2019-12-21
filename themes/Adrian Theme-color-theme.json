@@ -44,7 +44,10 @@
         "keyword.control.import.js.jsx",
         "keyword.control.from.js.jsx",
         "keyword.control.export.js.jsx",
-        "keyword.control.default.js.jsx"
+        "keyword.control.default.js.jsx",
+        "keyword.control.flow.python",
+        "storage.type.class.python",
+        "storage.type.function.python"
       ],
       "settings": {
         "foreground": "#2d7"
@@ -60,7 +63,10 @@
         "variable.other.constant.js",
         "support.function.math.js",
         "support.variable.property.js",
-        "support.function.js"
+        "support.function.js",
+        "support.function.builtin.python",
+        "support.function.magic.python",
+        "entity.name.function.python"
       ],
       "settings": {
         "foreground": "#0092e7"
