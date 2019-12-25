@@ -47,7 +47,17 @@
         "keyword.control.default.js.jsx",
         "keyword.control.flow.python",
         "storage.type.class.python",
-        "storage.type.function.python"
+        "storage.type.function.python",
+        "storage.type.numeric.go",
+        "storage.type.string.go",
+        "constant.language.go",
+        "storage.type.byte.go",
+        "storage.type.rune.go",
+        "keyword.control.go",
+        "keyword.type.go",
+        "keyword.struct.go",
+        "keyword.operator.comparison.go",
+        "keyword.var.go"
       ],
       "settings": {
         "foreground": "#2d7"
@@ -67,7 +77,8 @@
         "support.function.builtin.python",
         "support.function.magic.python",
         "entity.name.function.python",
-        "meta.function-call.generic.python"
+        "meta.function-call.generic.python",
+        "variable.other.declaration.go"
       ],
       "settings": {
         "foreground": "#0092e7"
