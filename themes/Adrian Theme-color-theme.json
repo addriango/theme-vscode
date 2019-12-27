@@ -57,7 +57,12 @@
         "keyword.type.go",
         "keyword.struct.go",
         "keyword.operator.comparison.go",
-        "keyword.var.go"
+        "keyword.var.go",
+        "keyword.operator.assignment.go",
+        "keyword.interface.go",
+        "storage.type.error.go",
+        "storage.type.boolean.go",
+        "keyword.channel.go"
       ],
       "settings": {
         "foreground": "#2d7"
