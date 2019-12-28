@@ -62,7 +62,15 @@
         "keyword.interface.go",
         "storage.type.error.go",
         "storage.type.boolean.go",
-        "keyword.channel.go"
+        "keyword.channel.go",
+        "storage.type.built-in.primitive.c",
+        "keyword.control.c",
+        "keyword.operator.comparison.c",
+        "keyword.control.directive.define.c",
+        "keyword.operator.c",
+        "keyword.control.switch.c",
+        "keyword.control.case.c",
+        "keyword.control.directive.include.c"
       ],
       "settings": {
         "foreground": "#2d7"
@@ -106,7 +114,7 @@
     },
     {
       "name": "var  javascript",
-      "scope": ["meta.object-literal.key.js"],
+      "scope": ["meta.object-literal.key.js", "constant.numeric.decimal.c"],
       "settings": {
         "foreground": "#dd946a"
       }
@@ -118,7 +126,10 @@
         "entity.name.import.go",
         "keyword.other.special-method.dockerfile",
         "variable.other.assignment.go",
-        "support.function.go"
+        "support.function.go",
+        "string.quoted.other.lt-gt.include.c",
+        "entity.name.function.c",
+        "constant.character.escape.c"
       ],
       "settings": {
         "fontStyle": "bold",
