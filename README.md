@@ -4,8 +4,10 @@
 
 ![Preview Theme](https://res.cloudinary.com/dh1ptdgbs/image/upload/v1576341562/thema-preview-1-min_grlemr.png)
 
-### For more information
+## To sponsor open source project through Wertern Union:
 
-- [Twitter account](https://twitter.com/adriiancode)
+- Riohacha - Colombia
+- Adrian David Gomez Rivera
+- Send me MTCN Code into DM to my [Twitter account](https://twitter.com/adriiancode) or [Facebook Account](https://facebook.com/adriiancode)
 
-## Enjoy!
+### Eternally Grateful!
